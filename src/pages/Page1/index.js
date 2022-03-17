@@ -3,6 +3,7 @@ import BackButton from '../../components/BackButton';
 import MainTag from './MainTag';
 import TagElement from '../../components/TagElement';
 import SlideInfo from '../../components/SlideInfo';
+import Footer from '../../components/Footer';
 import './styles.scss';
 
 import Pic1 from '../../assets/images/pic1.svg';
@@ -86,6 +87,8 @@ const Page1 = () => {
           }
         />
       </div>
+
+      <Footer />
     </div>
   );
 };
