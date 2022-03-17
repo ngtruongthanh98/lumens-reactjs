@@ -1,6 +1,6 @@
 import React from 'react';
 import BackButton from '../../components/BackButton';
-import TextButton from '../../components/TextButton';
+import MainTag from './MainTag';
 import './styles.scss';
 
 const Page1 = () => {
@@ -16,6 +16,8 @@ const Page1 = () => {
             rewards.
           </div>
         </div>
+
+        <MainTag />
       </div>
     </div>
   );
