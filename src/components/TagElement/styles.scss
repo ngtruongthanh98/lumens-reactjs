@@ -1,0 +1,64 @@
+.tag-element {
+  height: 240px;
+  width: 200px;
+
+  background: #ffffff;
+  border: 1px solid #f1f1f5;
+  box-shadow: 0px 12px 18px rgba(23, 23, 37, 0.04);
+  border-radius: 4px;
+
+  .coin-amount {
+    margin: 16px 0px 8px 16px;
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #0062ff;
+  }
+
+  .box-item {
+    display: flex;
+    align-items: center;
+    margin: 16px 0px 8px 16px;
+
+    .coin-amount-icon {
+      font-family: 'Hellix';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+
+      color: #696974;
+      margin-left: 4px;
+    }
+  }
+
+  .detail-info {
+    margin-left: 16px;
+    margin-right: 16px;
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+    color: #92929d;
+  }
+
+  .blue-text {
+    margin-top: 8px;
+    margin-left: 16px;
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+    color: #0062ff;
+  }
+}
