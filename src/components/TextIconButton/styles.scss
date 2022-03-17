@@ -1,0 +1,21 @@
+.icon-text-button {
+  border: 0;
+
+  display: flex;
+  align-items: center;
+
+  background-color: #fff;
+
+  .btn-name {
+    margin-right: 9px;
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.005em;
+
+    color: #0062ff;
+  }
+}
