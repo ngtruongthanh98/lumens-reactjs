@@ -1,0 +1,17 @@
+.text-button {
+  height: 60px;
+  width: 100%;
+  border-radius: 4px;
+  border: 0;
+
+  background-color: #171725;
+
+  .btn-name {
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+  }
+}

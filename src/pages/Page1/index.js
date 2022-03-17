@@ -1,5 +1,6 @@
 import React from 'react';
 import BackButton from '../../components/BackButton';
+import TextButton from '../../components/TextButton';
 import './styles.scss';
 
 const Page1 = () => {
