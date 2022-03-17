@@ -1,6 +1,7 @@
 import React from 'react';
 import ProgressBar from '../../../components/ProgressBar';
 import TextIconButton from '../../../components/TextIconButton';
+import TextButton from '../../../components/TextButton';
 import './styles.scss';
 
 const MainTag = () => {
@@ -18,6 +19,10 @@ const MainTag = () => {
       </div>
 
       <TextIconButton buttonName="View tier benefits" />
+
+      <TextButton buttonName="My Coupons" />
+
+      <div className="updated-date">Updated : 02/11/2021</div>
     </div>
   );
 };

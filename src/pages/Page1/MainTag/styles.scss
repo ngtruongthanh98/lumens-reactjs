@@ -61,4 +61,25 @@
 
     margin-top: 16px;
   }
+
+  .text-button {
+    margin: 24px 24px 16px 24px;
+    width: calc(100% - 48px);
+  }
+
+  .updated-date {
+    margin-left: 24px;
+    margin-right: 24px;
+
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Hellix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #b5b5be;
+  }
 }
